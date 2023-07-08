@@ -1,15 +1,16 @@
 @import "colors.scss";
 
-nav{
+  nav{
     width: 100%;
     padding: 1rem;
+    position: -webkit-sticky;
+      position: sticky;
+      top: 0%;
     display: flex;
     justify-content:space-between;
     align-items: center;
-    flex-wrap: wrap;
+    // flex-wrap: wrap;
     background-color: $first;
-    position: sticky;
-    top:0%;
     z-index:10;
 
   > h1{
@@ -31,5 +32,6 @@ nav{
     }
 }
 }
+
 
 

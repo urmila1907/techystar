@@ -1,20 +1,21 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 const Header = () => {
   return (
-    <div>
+    
         <nav>
             <h1 id='heading'>Techystar</h1>
             <main>
-                <Link to={"/"}>Home</Link>
-                <Link to={"/about"}>About</Link>
-                <Link to={"/guides"}>Guides</Link>
-                <Link to={"/project"}>Project ideas</Link>
-                <Link to={"/contact"}>Contact info</Link>
+                <HashLink to={"/#"}>Home</HashLink>
+                <HashLink to={"/#about"}>About</HashLink>
+                <HashLink to={"/#knowUs"}>Who are we?</HashLink>
+                <HashLink to={"/#brands"}>Brands</HashLink>
+                <HashLink to={"/#contact"}>Contact info</HashLink>
             </main>
         </nav>
-    </div>
+    
   )
 }
 
