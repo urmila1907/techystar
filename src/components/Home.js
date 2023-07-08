@@ -24,7 +24,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="home3" id='knowUs'>
+      <div className="home3">
         <div>
           <h1>Who are we?</h1>
           <p>
